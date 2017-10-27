@@ -1,0 +1,43 @@
+.chess{
+	width:400px;
+	height:600px;
+	margin:0px auto;
+	cursor: pointer;
+	border:3px solid black;
+	padding:10px 10px;
+}
+.chess > p{
+	margin:5px;
+}
+.result{
+	text-align: center;
+	margin-top:20px;
+	background-color: #9E9E9E;
+}
+.result>p{
+	margin:0px;
+}
+td.black{
+	width:50px;
+	color:black;
+}
+td.space{
+	width:50px;
+	color:blue;
+}
+td.white{
+	width:50px;
+	color:white;
+}
+#show_chess{
+	width:20px;
+	height:20px;
+}
+#player > input{
+	width:50px;
+	height:33px;
+}
+
+#player > span{
+	font-size: 15px;
+}
