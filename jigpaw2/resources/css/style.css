@@ -1,0 +1,60 @@
+div{
+	
+}
+.base{
+	width:800px;
+	height:600px;
+	margin:0px auto;
+	cursor: pointer;
+	position:relative;
+	border: 1px solid black;
+}
+#leftP{
+	width: 398px;
+	height: 500px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+#rightP{
+	width: 398px;
+	height: 500px;
+	position:absolute;
+	left:400px;
+	top:0px;
+}
+#configP{
+	width:800px;
+	height: 98px;
+	position:absolute;
+	top:500px;
+	border-top: 1px solid black;
+}
+img{
+	margin:0px;
+	padding:0px;
+}
+div.right-img-td{
+	margin:0px;
+	padding:0px;
+	border: 1px solid black;
+}
+div.left-img-td{
+	margin:0px;
+	padding:0px;
+	border: 1px solid black;
+}
+#startBtn,#configBtn{
+    height: 98%;
+    width: 180px;
+    font-size: 44px;
+    float: left;
+}
+#timer{
+    height: 98%;
+    width:200px;
+    font-size: 44px;
+    float: left;
+    line-height: 98px;
+    margin-left:40px;
+}
