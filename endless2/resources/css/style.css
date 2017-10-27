@@ -1,0 +1,44 @@
+@font-face {font-family:hyxls; src: url("../fonts/hyxls.ttf")}  
+
+body{
+	cursor: pointer;
+	margin: 0px auto;
+	background-color: black;
+}	
+div.baseContainer{
+	width: 800px;
+	height: 600px;
+	margin: 0px auto;
+	font-family:hyxls;
+	font-weight: bold;
+}
+.font-danger{
+	color:#f23b00;
+}
+#leftPanel{
+	border:1px solid red;
+}
+#rightPanel{
+	border:1px solid blue;
+}
+.weapon-data{
+	font-size: 10px;
+	margin-top:115px;
+	display:block;
+
+}
+.weapon-data > p{
+	font-size: 10px;	
+}
+/*#rightPanel{
+	border:1px solid blue;
+	height:600px;
+	width:390px;
+	float:left;
+}
+#leftPanel{
+	border:1px solid red;
+	height:600px;
+	width:400px;
+	float:left;
+}*/
